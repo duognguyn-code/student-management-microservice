@@ -1,9 +1,3 @@
-Một file `README.md` chuyên nghiệp là "bộ mặt" của dự án, giúp người khác (và chính bạn sau này) hiểu nhanh hệ thống Microservices của bạn làm gì và cách vận hành ra sao.
-
-Dưới đây là mẫu `README.md` được thiết kế tối ưu cho kiến trúc Microservices. Bạn hãy tạo file `README.md` ở thư mục gốc của project (`backend-system`) và dán nội dung này vào:
-
----
-
 # Student Management Microservices
 
 Hệ thống quản lý sinh viên được xây dựng dựa trên kiến trúc Microservices, bao gồm các service chính: **Auth-service**, **API-Gateway**, **Student-service**, và **Notification-service**.
@@ -67,10 +61,3 @@ Dự án áp dụng Git Flow:
 
 ---
 
-### Mẹo nhỏ cho file README:
-
-1. **Dùng Badge:** Bạn có thể thêm các badge (như tình trạng build, version Java) từ [Shields.io](https://shields.io/) để file trông chuyên nghiệp hơn.
-2. **Cấu trúc thư mục:** Nếu project phức tạp, hãy thêm một mục **Project Structure** để chỉ rõ cây thư mục (dùng lệnh `tree` để liệt kê).
-3. **Tài liệu API:** Nếu bạn đã dùng **Swagger/OpenAPI**, hãy thêm link dẫn tới trang Swagger UI của Gateway để người khác test API dễ dàng.
-
-Bạn đã có tài liệu mô tả chi tiết các endpoint API (ví dụ `/api/auth/login`) chưa? Nếu cần, mình có thể gợi ý cách trình bày phần **API Documentation** trong file README này để người dùng dễ tra cứu!
