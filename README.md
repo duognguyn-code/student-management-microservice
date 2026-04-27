@@ -60,4 +60,3 @@ Dự án áp dụng Git Flow:
 * `main`: Nhánh ổn định (Production).
 
 ---
-
