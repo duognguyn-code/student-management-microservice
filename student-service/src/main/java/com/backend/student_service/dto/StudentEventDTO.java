@@ -2,8 +2,12 @@ package com.backend.student_service.dto;
 
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 @Data
+@Getter
+@Setter
 public class StudentEventDTO {
 
     private String eventType; //create, update, delete
